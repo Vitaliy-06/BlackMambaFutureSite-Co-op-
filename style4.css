@@ -1,0 +1,84 @@
+body
+{
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+}
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: url("images/5-websites-to-download-free-subtle-textures-subtle.jpg");
+}
+
+.header{
+    position: absolute;
+    top: 30%;
+    left: 42%;
+}
+
+.header_2{
+    position: absolute;
+    top: 35%;
+    left: 44%;
+}
+
+.button{
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    padding: 15px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+   
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition:background-color 0.1s linear;
+    background-color: black;
+   }
+   
+   .button:hover
+   {
+     background-color: #d32c2c;
+   
+   }
+
+   .button_1{
+    position: absolute;
+    top: 31.5%;
+    left: 60%;
+    padding: 15px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+   
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition:background-color 0.1s linear;
+    background-color: black;
+   }
+   
+   .button_1:hover
+   {
+     background-color: #d32c2c;
+   
+   }
